@@ -9,6 +9,10 @@
     
 }
 
+.navbar{
+  background-color: rgb(112, 137, 190) !important
+}
+
 .navbar-brand, .nav-link {
     color: rgb(255, 255, 255) !important;
     font-weight: bold !important;
@@ -20,8 +24,8 @@
     font-size: 35px !important;
 
 }
-.navbar:hover .navbar-brand {
-    color: rgb(196, 85, 100) !important;
+.navbar:hover .navbar-link {
+    color: rgb(121, 111, 206) !important;
 }
 
 .navbar:hover .nav-link {
@@ -30,9 +34,6 @@
 
 .nav-link:hover {
     color: rgb(196, 85, 100) !important;
-}
-.navbar:hover{
-    background-color:  rgb(52, 58, 64) !important ;
 }
 
 .carousel .carousel-item {
@@ -73,12 +74,19 @@ body {
 	margin: 10px 0;
 }
 
+.our-product, .frequent, .servces{
+  color: rgb(112, 137, 190) !important;
+}
+.our-producthr, .servceshr{
+  background-color:  rgb(112, 137, 190) !important;
+}
+
 .card-body:hover{
     filter: brightness(75%);
   cursor: pointer;
 }
 .accord:hover{
-    background-color: rgb(211, 208, 208) !important; 
+    background-color: rgb(112, 137, 190) !important; 
     cursor: pointer !important;
 }
 
@@ -163,8 +171,8 @@ h1 span {
   top: 20px;
   display: inline-block;
   -webkit-animation: bounce 0.3s ease infinite alternate;
-  font-size: 80px;
-  color: rgb(52, 58, 64) !important;
+  font-size: 70px;
+  color: rgb(112, 137, 190) !important;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
     0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
     0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
