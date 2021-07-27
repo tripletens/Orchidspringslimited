@@ -1,0 +1,28 @@
+{
+  "name": "orchigspringslimited",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idongesit01/orchidsprings-limited.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Idongesit01/orchidsprings-limited/issues"
+  },
+  "homepage": "https://github.com/Idongesit01/orchidsprings-limited#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  }
+}
