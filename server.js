@@ -79,5 +79,5 @@ app.post('/contact', (req, res) => {
         }
 
         main().catch(console.error);
-res.end('your message has been successfully sent!')
+  res.end('your message has been successfully sent!')
 }) 
